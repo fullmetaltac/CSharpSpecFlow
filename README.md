@@ -16,8 +16,8 @@ Write tests to cover the following Scenarios:
 
 ```starters:		4 * 4 = 16```  
 ```mains:			4 * 7 = 28```  
-```drinks:			4 * 2.5 * 0.7 = 7```  
-```charge:			10% = 4.4```  
+```drinks:		4 * 2.5 * 0.7 = 7```  
+```charge:		10% = 4.4```  
 ```price:			16 + 28 + 7 = 51```  
 ```total:			51 + 4.4 = 54.4```	
 
@@ -25,7 +25,7 @@ Write tests to cover the following Scenarios:
 The group of two people are then joined by 2 more people at 20:00 who order 2 mains and 2 drinks, when the party is ready to leave the final bill is requested and is correct.
 
 ```starters#1:		1 * 4 = 4```  
-```mains#1:			2 * 7 = 14```  
+```mains#1:		2 * 7 = 14```  
 ```drinks#1:		2 * 2.5 * 0.7 = 3.5```  
 ```charge#1:		10% = 1.8```  
   
@@ -40,17 +40,17 @@ The group of two people are then joined by 2 more people at 20:00 who order 2 ma
 
 3. A group of 4 people order a starter, 1 mains and a drink each. The bill is requested and correctly calculated. A member of the group cancels their order and the order is now updated to reflect one member of the party leaving.  A final bill is requested as the party is ready to leave and final amount is correct and reflects the changes to the group.
 
-```starters#1:		4 * 4  = 16```
-```mains#1:			4 * 7  = 28```
-```drinks#1:		4 * 2.5 = 10```
-```charge#1:		10% = 4.4```
+```starters#1:		4 * 4  = 16```  
+```mains#1:			4 * 7  = 28```  
+```drinks#1:		4 * 2.5 = 10```  
+```charge#1:		10% = 4.4```  
 
-```cancelation```
+```cancelation```  
 
-```starters#2:		3 * 4 = 12```
-```mains#2:			3 * 7 = 21```
-```drinks#2:		3 * 2.5 * 0.7 = 5.25```
-```charge#2			10% = 3.3```
+```starters#2:		3 * 4 = 12```  
+```mains#2:			3 * 7 = 21```  
+```drinks#2:		3 * 2.5 * 0.7 = 5.25```  
+```charge#2			10% = 3.3```  
 
 ```price:			12 + 21 + 5.25 = 38.25```
 ```charge:			10% = 3.3```
