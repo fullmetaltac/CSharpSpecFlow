@@ -50,10 +50,10 @@ The group of two people are then joined by 2 more people at 20:00 who order 2 ma
 ```starters#2:		3 * 4 = 12```  
 ```mains#2:		3 * 7 = 21```  
 ```drinks#2:		3 * 2.5 * 0.7 = 5.25```  
-```charge#2			10% = 3.3```  
+```charge#2		10% = 3.3```  
 
 ```price:			12 + 21 + 5.25 = 38.25```  
-```charge:			10% = 3.3```  
+```charge:		10% = 3.3```  
 ```total:			38.25 + 3.3 = 41.55```  
 
 ### Requirements:
