@@ -16,16 +16,8 @@ namespace CSharpSpecFlow.StepDefinitions
         [Given(@"the order includes:")]
         public void GivenTheOrderIncludes(Table table)
         {
-            foreach (var row in table.CreateSet<OrderDC>())
-            {
-                orders.Add(new OrderDC
-                {
-                    Starters = row.Starters,
-                    Mains = row.Mains,
-                    Drinks = row.Drinks,
-                    OrderTime = row.OrderTime
-                });
-            }
+            foreach (var order in table.CreateSet<OrderDC>())
+                orders.Add(order);
         }
 
         [Given(@"a customer cancels (.*) starter, (.*) main, and (.*) drink")]
@@ -38,11 +30,7 @@ namespace CSharpSpecFlow.StepDefinitions
                 orders[0].Starters -= starters;
             }
             else
-            {
-                throw new InvalidOperationException(
-                  "Cannot cancel items from an empty order."
-                );
-            }
+                throw new InvalidOperationException("Cannot cancel items from an empty order.");
         }
 
         [When(@"the checkout is requested")]
